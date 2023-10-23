@@ -71,7 +71,20 @@ class Cycling extends workout{
 class app {
     #map
     #mapE //mapevent when click
-    #workouts=[]
+    #workouts=[{
+      "coords": [
+        25.108528497335392,
+        55.145702362060554
+      ],
+      "distance": 2,
+      "duration": 10,
+      "date": "2023-10-23T06:34:05.643Z",
+      "id": "8042845643",
+      "type": "running",
+      "cadence": 30,
+      "pace": 5,
+      "description": "Running on October 23"
+    }]
     #mapZoom=14
     
   constructor(){
